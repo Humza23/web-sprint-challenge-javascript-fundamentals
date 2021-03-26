@@ -39,7 +39,7 @@ Implicit Binding - applies to objects with methods. In an invoked function look 
 Explicit Binding - We tell a function what the 'this' keyword should be using .call, .apply or .bind. Call will invoke the function and you pass in your arguments 1 by 1. Apply will invoke the function and you pass in your arguments as an array. Bind you pass in your arguments 1 by 1, but it will not invoke the function, instead it returns a brand new function that can be invoked later.
 
 5. Why do we need super() in an extended class?
-In class syntax, super() in an extended class does what object.create previously did with prototypes to receive the attributes from its parent constructor.
+In class syntax, super() in an extended class does what object.create previously did with prototypes to receive the attributes and methods from its parent constructor.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
