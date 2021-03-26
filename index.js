@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+// Nested function is a closure and can reach out to the parent scope to access the variable internal
 
 
 
@@ -168,7 +168,7 @@ function greeting(first, last){
 function CuboidMaker(attrs){
   this.length = attrs.length;
   this.width = attrs.width;
-  this.height = attrs.height;
+  this.height = attrs.height; 
 }
 
 
@@ -190,7 +190,6 @@ CuboidMaker.prototype.volume = function(){
 CuboidMaker.prototype.surfaceArea = function(){
   return 2 * (this.length * this.width + this.length * this.height + this.width * this.height)
 }
-
 
 
 
