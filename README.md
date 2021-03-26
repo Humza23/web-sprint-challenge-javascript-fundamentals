@@ -37,6 +37,7 @@ Edit this document to include your answers after each question. Make sure to lea
 Window Binding - if this hasnt been given any context it will return the window, global object in node or undefined in strict mode.
 Implicit Binding - applies to objects with methods. In an invoked function look to the left of dot to see what "this" refers to.
 Explicit Binding - We tell a function what the 'this' keyword should be using .call, .apply or .bind. Call will invoke the function and you pass in your arguments 1 by 1. Apply will invoke the function and you pass in your arguments as an array. Bind you pass in your arguments 1 by 1, but it will not invoke the function, instead it returns a brand new function that can be invoked later.
+New Binding - When a function is invoked with a new keyword the this keyword inside that function is bound to the new object being constructed. When a function is invoked as a constructor function using the new keyword, this points to the new object that’s created.
 
 5. Why do we need super() in an extended class?
 In class syntax, super() in an extended class does what object.create previously did with prototypes to receive the attributes and methods from its parent constructor.
